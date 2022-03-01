@@ -60,7 +60,8 @@ footer{
 clear:both;
 }
 #fotomalaga{
-  height="400px" width="650"
+  height:200px;
+  width: 325px;
 }
 
 
@@ -88,5 +89,6 @@ ul{
   float:left;
   }
   #fotomalaga{
-    height="200px" width="350"
+    height:400px;
+    width:650px;
   }
