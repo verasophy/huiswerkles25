@@ -23,20 +23,14 @@ li{
   background-color: #F8FFAC;
 }
 #deel1{
-  width:25%;
-  float:left;
   min-height: 900px;
   background-color:  #e6f5ff;
 }
 #deel2{
-  width:50%;
-  float: left;
   min-height: 900px;
   background-color: #F8F9F9;
 }
 #deel3{
-  width:25%;
-float:left;
   min-height: 900px;
   background-color:  #e6f5ff;
 }
@@ -79,4 +73,14 @@ ul{
   margin-left: 900px;
   margin-top: 10px;
 }
+  #deel1{
+    width:25%;
+  float:left;
  }
+  #deel2{
+    width:50%;
+    float:left;}
+  #deel3{
+    width:25%;
+  float:left;
+  }
