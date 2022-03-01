@@ -74,6 +74,7 @@ height: 10px;
 width:200px;
 }
 ul{
+  width:50%;
   float: none;
   margin-left: 900px;
   margin-top: 10px;
