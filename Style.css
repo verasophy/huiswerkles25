@@ -51,6 +51,8 @@ padding: 15px;}
 
 #fotomalaga{
 filter: saturate(50%);
+   height:200px;
+  width: 325px;
 }
 
 footer{
@@ -58,10 +60,6 @@ footer{
   height:20%;
   background-color:#6CB8E7;
 clear:both;
-}
-#fotomalaga{
-  height:200px;
-  width: 325px;
 }
 
 
