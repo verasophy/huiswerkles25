@@ -5,18 +5,22 @@ header{background-color: #6CB8E7;
 padding:10px;
 width:100%;
   height:15%;
-  background-image:url(https://www.casafeliz.nl/uploads/2/4/9/8/24989269/6444358_orig.jpg);
-  background-size: 30% 100%;
-  background-repeat:no-repeat;
-  background-position: 450px 0px;
+float: left;
+background-image:url(https://www.casafeliz.nl/uploads/2/4/9/8/24989269/6444358_orig.jpg);
+background-size: 30% 100%;
+background-repeat:no-repeat;
+background-position: 500px 0px
 }
-ul{
-  display: inline-block;
-  width: 100%;
+h1, h2{
+float:left;
 }
+
+
 li{
-  height: 20px;
-  width:50%;
+  float: right;
+  display:inline-block;
+  height:50px;
+  width:80px;
   padding: 12px;
   text-align: center;
   color: black;
@@ -24,6 +28,15 @@ li{
   border: solid;
   border-width: thin;
   background-color: #F8FFAC;
+}
+li:hover{
+background-color:#FFFFFF;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 #deel1{
   min-height: 900px;
@@ -54,8 +67,8 @@ padding: 15px;}
 
 #fotomalaga{
 filter: saturate(50%);
-   height:200px;
-  width: 325px;
+height: 200px;
+width; 325px;
 }
 
 footer{
@@ -69,29 +82,24 @@ clear:both;
 
 @media only screen and (min-width:768px){
 li{
-display:inline-block;
-height: 10px;
-width:200px;
 }
 ul{
-  width:20%;
-  float: none;
-  margin-left: 900px;
-  margin-top: 10px;
+
 }
-  #deel1{
-    width:25%;
-  float:left;
- }
-  #deel2{
-    width:50%;
-    float:left;}
-  #deel3{
-    width:25%;
-  float:left;
-  }
-  #fotomalaga{
-    height:400px;
-    width:650px;
-  }
+#deel1{
+  width:25%;
+float:left
+}
+#deel3{
+  width:25%;
+float:left
+}
+#deel2{
+  width:50%;
+float:left;
+}
+#fotomalaga{
+  height: 400px;
+  width: 650px;
+}
 }
